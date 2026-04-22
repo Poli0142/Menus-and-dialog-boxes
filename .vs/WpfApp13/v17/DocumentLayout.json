@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\WpfApp13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{603C29FC-0FDE-4BE4-9A9A-251D77A34D45}|WpfApp13\\WpfApp13.csproj|c:\\users\\\u043F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\wpfapp13\\wpfapp13\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{603C29FC-0FDE-4BE4-9A9A-251D77A34D45}|WpfApp13\\WpfApp13.csproj|solutionrelative:wpfapp13\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603C29FC-0FDE-4BE4-9A9A-251D77A34D45}|WpfApp13\\WpfApp13.csproj|c:\\users\\\u043F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\wpfapp13\\wpfapp13\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603C29FC-0FDE-4BE4-9A9A-251D77A34D45}|WpfApp13\\WpfApp13.csproj|solutionrelative:wpfapp13\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\WpfApp13\\WpfApp13\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp13\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\WpfApp13\\WpfApp13\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp13\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T14:36:32.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\WpfApp13\\WpfApp13\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp13\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\source\\repos\\WpfApp13\\WpfApp13\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp13\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:36:31.85Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

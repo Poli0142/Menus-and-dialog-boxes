@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp13"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <ContextMenu x:Key="ShapeContextMenu">
+            <MenuItem Header="Изменить цвет (Предпросмотр)" Click="ChangeColor_Click"/>
+            <MenuItem Header="Изменить размер (Предпросмотр)" Click="ChangeSize_Click"/>
+            <Separator/>
+            <MenuItem Header="Справка" Click="Help_Click"/>
+        </ContextMenu>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Выход" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Правка">
+                <MenuItem Header="Цвет (Предпросмотр)" Click="ChangeColor_Click"/>
+                <MenuItem Header="Размер (Предпросмотр)" Click="ChangeSize_Click"/>
+                <Separator/>
+                <MenuItem Header="О программе" Click="About_Click"/>
+            </MenuItem>
+        </Menu>
+        <Rectangle x:Name="MyShape" 
+               Grid.Row="1"
+               Fill="LightGray" Stroke="DarkGray" StrokeThickness="2"
+               Width="150" Height="150"
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               ContextMenu="{StaticResource ShapeContextMenu}"/>
+    </Grid>
+</Window>
